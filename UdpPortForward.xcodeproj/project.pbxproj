@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730DDB7B1C9EC0A9001748C9 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB791C9EC0A9001748C9 /* yudpsocket.c */; };
+		730DDB7C1C9EC0A9001748C9 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */; };
+		730DDB7E1C9EC0D1001748C9 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB7D1C9EC0D1001748C9 /* ysocket.swift */; };
+		7324C1BD1C9EE33C00FF7FDD /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7324C1BC1C9EE33C00FF7FDD /* socket.cpp */; };
+		737258121C9C2A0B00E762A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737258111C9C2A0B00E762A2 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7372580C1C9C2A0B00E762A2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		730DDB791C9EC0A9001748C9 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.c"; sourceTree = "<group>"; };
+		730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.swift"; sourceTree = "<group>"; };
+		730DDB7D1C9EC0D1001748C9 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/ysocket.swift"; sourceTree = "<group>"; };
+		7324C1BC1C9EE33C00FF7FDD /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		7372580E1C9C2A0B00E762A2 /* UdpPortForward */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UdpPortForward; sourceTree = BUILT_PRODUCTS_DIR; };
+		737258111C9C2A0B00E762A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7372580B1C9C2A0B00E762A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737258051C9C2A0B00E762A2 = {
+			isa = PBXGroup;
+			children = (
+				737258101C9C2A0B00E762A2 /* UdpPortForward */,
+				7372580F1C9C2A0B00E762A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7372580F1C9C2A0B00E762A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7372580E1C9C2A0B00E762A2 /* UdpPortForward */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737258101C9C2A0B00E762A2 /* UdpPortForward */ = {
+			isa = PBXGroup;
+			children = (
+				730DDB7D1C9EC0D1001748C9 /* ysocket.swift */,
+				730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */,
+				737258111C9C2A0B00E762A2 /* main.swift */,
+				730DDB791C9EC0A9001748C9 /* yudpsocket.c */,
+				7324C1BC1C9EE33C00FF7FDD /* socket.cpp */,
+			);
+			path = UdpPortForward;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7372580D1C9C2A0B00E762A2 /* UdpPortForward */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737258151C9C2A0B00E762A2 /* Build configuration list for PBXNativeTarget "UdpPortForward" */;
+			buildPhases = (
+				7372580A1C9C2A0B00E762A2 /* Sources */,
+				7372580B1C9C2A0B00E762A2 /* Frameworks */,
+				7372580C1C9C2A0B00E762A2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdpPortForward;
+			productName = UdpPortForward;
+			productReference = 7372580E1C9C2A0B00E762A2 /* UdpPortForward */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737258061C9C2A0B00E762A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Soon Hao Ye ";
+				TargetAttributes = {
+					7372580D1C9C2A0B00E762A2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 737258091C9C2A0B00E762A2 /* Build configuration list for PBXProject "UdpPortForward" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 737258051C9C2A0B00E762A2;
+			productRefGroup = 7372580F1C9C2A0B00E762A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7372580D1C9C2A0B00E762A2 /* UdpPortForward */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7372580A1C9C2A0B00E762A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730DDB7C1C9EC0A9001748C9 /* yudpsocket.swift in Sources */,
+				7324C1BD1C9EE33C00FF7FDD /* socket.cpp in Sources */,
+				730DDB7B1C9EC0A9001748C9 /* yudpsocket.c in Sources */,
+				730DDB7E1C9EC0D1001748C9 /* ysocket.swift in Sources */,
+				737258121C9C2A0B00E762A2 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		737258131C9C2A0B00E762A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		737258141C9C2A0B00E762A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		737258161C9C2A0B00E762A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		737258171C9C2A0B00E762A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737258091C9C2A0B00E762A2 /* Build configuration list for PBXProject "UdpPortForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737258131C9C2A0B00E762A2 /* Debug */,
+				737258141C9C2A0B00E762A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737258151C9C2A0B00E762A2 /* Build configuration list for PBXNativeTarget "UdpPortForward" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737258161C9C2A0B00E762A2 /* Debug */,
+				737258171C9C2A0B00E762A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737258061C9C2A0B00E762A2 /* Project object */;
+}
