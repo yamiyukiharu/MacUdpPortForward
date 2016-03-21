@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		730DDB7B1C9EC0A9001748C9 /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB791C9EC0A9001748C9 /* yudpsocket.c */; };
-		730DDB7C1C9EC0A9001748C9 /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */; };
-		730DDB7E1C9EC0D1001748C9 /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DDB7D1C9EC0D1001748C9 /* ysocket.swift */; };
 		7324C1BD1C9EE33C00FF7FDD /* socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7324C1BC1C9EE33C00FF7FDD /* socket.cpp */; };
+		7324C1C11C9F8B0F00FF7FDD /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 7324C1BE1C9F8B0F00FF7FDD /* yudpsocket.c */; };
+		7324C1C21C9F8B0F00FF7FDD /* ysocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7324C1BF1C9F8B0F00FF7FDD /* ysocket.swift */; };
+		7324C1C31C9F8B0F00FF7FDD /* yudpsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7324C1C01C9F8B0F00FF7FDD /* yudpsocket.swift */; };
 		737258121C9C2A0B00E762A2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737258111C9C2A0B00E762A2 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		730DDB791C9EC0A9001748C9 /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.c"; sourceTree = "<group>"; };
-		730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = yudpsocket.swift; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/yudpsocket.swift"; sourceTree = "<group>"; };
-		730DDB7D1C9EC0D1001748C9 /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ysocket.swift; path = "../../../../Downloads/SwiftSocket-master/SwiftSocket/ysocket/ysocket.swift"; sourceTree = "<group>"; };
 		7324C1BC1C9EE33C00FF7FDD /* socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socket.cpp; sourceTree = "<group>"; };
+		7324C1BE1C9F8B0F00FF7FDD /* yudpsocket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yudpsocket.c; sourceTree = "<group>"; };
+		7324C1BF1C9F8B0F00FF7FDD /* ysocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ysocket.swift; sourceTree = "<group>"; };
+		7324C1C01C9F8B0F00FF7FDD /* yudpsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yudpsocket.swift; sourceTree = "<group>"; };
 		7372580E1C9C2A0B00E762A2 /* UdpPortForward */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UdpPortForward; sourceTree = BUILT_PRODUCTS_DIR; };
 		737258111C9C2A0B00E762A2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +65,10 @@
 		737258101C9C2A0B00E762A2 /* UdpPortForward */ = {
 			isa = PBXGroup;
 			children = (
-				730DDB7D1C9EC0D1001748C9 /* ysocket.swift */,
-				730DDB7A1C9EC0A9001748C9 /* yudpsocket.swift */,
+				7324C1BE1C9F8B0F00FF7FDD /* yudpsocket.c */,
+				7324C1BF1C9F8B0F00FF7FDD /* ysocket.swift */,
+				7324C1C01C9F8B0F00FF7FDD /* yudpsocket.swift */,
 				737258111C9C2A0B00E762A2 /* main.swift */,
-				730DDB791C9EC0A9001748C9 /* yudpsocket.c */,
 				7324C1BC1C9EE33C00FF7FDD /* socket.cpp */,
 			);
 			path = UdpPortForward;
@@ -131,11 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				730DDB7C1C9EC0A9001748C9 /* yudpsocket.swift in Sources */,
 				7324C1BD1C9EE33C00FF7FDD /* socket.cpp in Sources */,
-				730DDB7B1C9EC0A9001748C9 /* yudpsocket.c in Sources */,
-				730DDB7E1C9EC0D1001748C9 /* ysocket.swift in Sources */,
+				7324C1C31C9F8B0F00FF7FDD /* yudpsocket.swift in Sources */,
 				737258121C9C2A0B00E762A2 /* main.swift in Sources */,
+				7324C1C21C9F8B0F00FF7FDD /* ysocket.swift in Sources */,
+				7324C1C11C9F8B0F00FF7FDD /* yudpsocket.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
