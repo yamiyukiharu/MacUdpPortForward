@@ -11,8 +11,6 @@ import Foundation
 let LOCAL_MACHINE_PORT = 8888
 let EMULATOR_PORT = 5000
 let PACKET_SIZE = 100
-//let EMULATOR_IP_ADDRESS = "10.0.2.15"
-let EMULATOR_IP_ADDRESS = "127.0.0.1"
 
 func getIpAddress()->String {
     let localMachine:NSHost = NSHost.currentHost()
@@ -48,10 +46,10 @@ func sendToPort(ipAddress:String, packet:[UInt8])->(Bool,String) {
     return (true,"success")
 }
 
-let localMachineIpAddress = "172.19.170.246"//getIpAddress()
+let address = ""
 while(true) {
-    let (success,packet) = listenToPort(localMachineIpAddress)
+    let (success,packet) = listenToPort(address)
     if(success) {
-        sendToPort(EMULATOR_IP_ADDRESS, packet: packet!)
+        sendToPort(getIpAddress(), packet: packet!)
     }
 }
