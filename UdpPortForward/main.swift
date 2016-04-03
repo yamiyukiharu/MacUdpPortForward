@@ -3,7 +3,6 @@
 //  UdpPortForward
 //
 //  Created by Soon Hao Ye  on 18/3/16.
-//  Copyright © 2016 Soon Hao Ye . All rights reserved.
 //
 
 import Foundation
@@ -11,6 +10,7 @@ import Foundation
 let LOCAL_MACHINE_PORT = 8888
 let EMULATOR_PORT = 5000
 let PACKET_SIZE = 100
+let LOCAL_IP_START_ADDR = "172"
 
 func getIpAddress()->String {
     let localMachine:NSHost = NSHost.currentHost()
@@ -18,7 +18,7 @@ func getIpAddress()->String {
     var ipAddress:String = ""
     for address in localAddresses {
         let arr = Array(address.characters)
-        let cmp = Array("192".characters)
+        let cmp = Array(LOCAL_IP_START_ADDR.characters)
         if(arr[0] == cmp[0] && arr[1] == cmp[1] && arr[2] == cmp[2]) {
             ipAddress = address
         }
